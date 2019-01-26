@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D50857CD21E10ADC0088FDFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50857CC21E10ADC0088FDFF /* AppDelegate.swift */; };
+		D50857CF21E10ADC0088FDFF /* FormularioContatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50857CE21E10ADC0088FDFF /* FormularioContatoViewController.swift */; };
+		D50857D221E10ADC0088FDFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50857D021E10ADC0088FDFF /* Main.storyboard */; };
+		D50857D521E10ADC0088FDFF /* ContatosIP67.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D50857D321E10ADC0088FDFF /* ContatosIP67.xcdatamodeld */; };
+		D50857D721E10ADC0088FDFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50857D621E10ADC0088FDFF /* Assets.xcassets */; };
+		D50857DA21E10ADC0088FDFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50857D821E10ADC0088FDFF /* LaunchScreen.storyboard */; };
+		D50857E421E117900088FDFF /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = D50857E321E117900088FDFF /* Contato.m */; };
+		D50857E621E11DB50088FDFF /* ContatoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50857E521E11DB50088FDFF /* ContatoDao.swift */; };
+		D50857E821E12FD70088FDFF /* ListaContatosViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50857E721E12FD70088FDFF /* ListaContatosViewControllerTableViewController.swift */; };
+		D50DCA5621F396050098CF2C /* GerenciadorDeAcoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50DCA5521F396050098CF2C /* GerenciadorDeAcoes.swift */; };
+		D50DCA5821F3A3760098CF2C /* CellContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50DCA5721F3A3760098CF2C /* CellContact.swift */; };
+		D53A7E8921F38BFD00C6C7FE /* FormularioContatoViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A7E8821F38BFD00C6C7FE /* FormularioContatoViewControllerDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D50857C921E10ADC0088FDFF /* ContatosIP67.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContatosIP67.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50857CC21E10ADC0088FDFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D50857CE21E10ADC0088FDFF /* FormularioContatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioContatoViewController.swift; sourceTree = "<group>"; };
+		D50857D121E10ADC0088FDFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D50857D421E10ADC0088FDFF /* ContatosIP67.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContatosIP67.xcdatamodel; sourceTree = "<group>"; };
+		D50857D621E10ADC0088FDFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D50857D921E10ADC0088FDFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D50857DB21E10ADC0088FDFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50857E121E1178F0088FDFF /* ContatosIP67-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContatosIP67-Bridging-Header.h"; sourceTree = "<group>"; };
+		D50857E221E117900088FDFF /* Contato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contato.h; sourceTree = "<group>"; };
+		D50857E321E117900088FDFF /* Contato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contato.m; sourceTree = "<group>"; };
+		D50857E521E11DB50088FDFF /* ContatoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContatoDao.swift; sourceTree = "<group>"; };
+		D50857E721E12FD70088FDFF /* ListaContatosViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaContatosViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		D50DCA5521F396050098CF2C /* GerenciadorDeAcoes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GerenciadorDeAcoes.swift; sourceTree = "<group>"; };
+		D50DCA5721F3A3760098CF2C /* CellContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellContact.swift; sourceTree = "<group>"; };
+		D53A7E8821F38BFD00C6C7FE /* FormularioContatoViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormularioContatoViewControllerDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D50857C621E10ADB0088FDFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D50857C021E10ADB0088FDFF = {
+			isa = PBXGroup;
+			children = (
+				D50857CB21E10ADC0088FDFF /* ContatosIP67 */,
+				D50857CA21E10ADC0088FDFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D50857CA21E10ADC0088FDFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D50857C921E10ADC0088FDFF /* ContatosIP67.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D50857CB21E10ADC0088FDFF /* ContatosIP67 */ = {
+			isa = PBXGroup;
+			children = (
+				D50857CC21E10ADC0088FDFF /* AppDelegate.swift */,
+				D50857CE21E10ADC0088FDFF /* FormularioContatoViewController.swift */,
+				D50857D021E10ADC0088FDFF /* Main.storyboard */,
+				D50857D621E10ADC0088FDFF /* Assets.xcassets */,
+				D50857D821E10ADC0088FDFF /* LaunchScreen.storyboard */,
+				D50857DB21E10ADC0088FDFF /* Info.plist */,
+				D50857D321E10ADC0088FDFF /* ContatosIP67.xcdatamodeld */,
+				D50857E221E117900088FDFF /* Contato.h */,
+				D50857E321E117900088FDFF /* Contato.m */,
+				D50857E121E1178F0088FDFF /* ContatosIP67-Bridging-Header.h */,
+				D50857E521E11DB50088FDFF /* ContatoDao.swift */,
+				D50857E721E12FD70088FDFF /* ListaContatosViewControllerTableViewController.swift */,
+				D53A7E8821F38BFD00C6C7FE /* FormularioContatoViewControllerDelegate.swift */,
+				D50DCA5521F396050098CF2C /* GerenciadorDeAcoes.swift */,
+				D50DCA5721F3A3760098CF2C /* CellContact.swift */,
+			);
+			path = ContatosIP67;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D50857C821E10ADB0088FDFF /* ContatosIP67 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50857DE21E10ADC0088FDFF /* Build configuration list for PBXNativeTarget "ContatosIP67" */;
+			buildPhases = (
+				D50857C521E10ADB0088FDFF /* Sources */,
+				D50857C621E10ADB0088FDFF /* Frameworks */,
+				D50857C721E10ADB0088FDFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContatosIP67;
+			productName = ContatosIP67;
+			productReference = D50857C921E10ADC0088FDFF /* ContatosIP67.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D50857C121E10ADB0088FDFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Caelum;
+				TargetAttributes = {
+					D50857C821E10ADB0088FDFF = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D50857C421E10ADB0088FDFF /* Build configuration list for PBXProject "ContatosIP67" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D50857C021E10ADB0088FDFF;
+			productRefGroup = D50857CA21E10ADC0088FDFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D50857C821E10ADB0088FDFF /* ContatosIP67 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D50857C721E10ADB0088FDFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50857DA21E10ADC0088FDFF /* LaunchScreen.storyboard in Resources */,
+				D50857D721E10ADC0088FDFF /* Assets.xcassets in Resources */,
+				D50857D221E10ADC0088FDFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D50857C521E10ADB0088FDFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50857E421E117900088FDFF /* Contato.m in Sources */,
+				D50857CF21E10ADC0088FDFF /* FormularioContatoViewController.swift in Sources */,
+				D50DCA5621F396050098CF2C /* GerenciadorDeAcoes.swift in Sources */,
+				D53A7E8921F38BFD00C6C7FE /* FormularioContatoViewControllerDelegate.swift in Sources */,
+				D50DCA5821F3A3760098CF2C /* CellContact.swift in Sources */,
+				D50857E621E11DB50088FDFF /* ContatoDao.swift in Sources */,
+				D50857D521E10ADC0088FDFF /* ContatosIP67.xcdatamodeld in Sources */,
+				D50857CD21E10ADC0088FDFF /* AppDelegate.swift in Sources */,
+				D50857E821E12FD70088FDFF /* ListaContatosViewControllerTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D50857D021E10ADC0088FDFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50857D121E10ADC0088FDFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D50857D821E10ADC0088FDFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50857D921E10ADC0088FDFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D50857DC21E10ADC0088FDFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D50857DD21E10ADC0088FDFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D50857DF21E10ADC0088FDFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ContatosIP67/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.caelum.ContatosIP67;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ContatosIP67/ContatosIP67-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D50857E021E10ADC0088FDFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ContatosIP67/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.caelum.ContatosIP67;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ContatosIP67/ContatosIP67-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D50857C421E10ADB0088FDFF /* Build configuration list for PBXProject "ContatosIP67" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50857DC21E10ADC0088FDFF /* Debug */,
+				D50857DD21E10ADC0088FDFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D50857DE21E10ADC0088FDFF /* Build configuration list for PBXNativeTarget "ContatosIP67" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50857DF21E10ADC0088FDFF /* Debug */,
+				D50857E021E10ADC0088FDFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D50857D321E10ADC0088FDFF /* ContatosIP67.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D50857D421E10ADC0088FDFF /* ContatosIP67.xcdatamodel */,
+			);
+			currentVersion = D50857D421E10ADC0088FDFF /* ContatosIP67.xcdatamodel */;
+			path = ContatosIP67.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D50857C121E10ADB0088FDFF /* Project object */;
+}
