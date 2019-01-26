@@ -45,11 +45,12 @@ class GerenciadorDeAcoes {
     private func ligar(){
         let device = UIDevice.current
         
-        if device.model == "iPhone" {
+        if device.model == "iPad" {
             print("UUID \(device.identifierForVendor!)")
             AbrirAplicativo(com: "tel:\(self.contato.telefone!)")
         } else{
             let alert = UIAlertController(title: "Impossível fazer ligações", message: "Seu dispositivo não é um iPhone", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             self.controller.present(alert, animated: true, completion: nil)
         }
     }

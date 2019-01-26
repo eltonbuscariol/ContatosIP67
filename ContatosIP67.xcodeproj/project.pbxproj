@@ -19,6 +19,7 @@
 		D50DCA5621F396050098CF2C /* GerenciadorDeAcoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50DCA5521F396050098CF2C /* GerenciadorDeAcoes.swift */; };
 		D50DCA5821F3A3760098CF2C /* CellContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50DCA5721F3A3760098CF2C /* CellContact.swift */; };
 		D53A7E8921F38BFD00C6C7FE /* FormularioContatoViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A7E8821F38BFD00C6C7FE /* FormularioContatoViewControllerDelegate.swift */; };
+		D57D5F5521FCA211002178BA /* ContatosNoMapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57D5F5421FCA211002178BA /* ContatosNoMapaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		D50DCA5521F396050098CF2C /* GerenciadorDeAcoes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GerenciadorDeAcoes.swift; sourceTree = "<group>"; };
 		D50DCA5721F3A3760098CF2C /* CellContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellContact.swift; sourceTree = "<group>"; };
 		D53A7E8821F38BFD00C6C7FE /* FormularioContatoViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormularioContatoViewControllerDelegate.swift; sourceTree = "<group>"; };
+		D57D5F5421FCA211002178BA /* ContatosNoMapaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContatosNoMapaViewController.swift; sourceTree = "<group>"; };
+		D57D5F5621FCC33F002178BA /* VilaMariana.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VilaMariana.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				D53A7E8821F38BFD00C6C7FE /* FormularioContatoViewControllerDelegate.swift */,
 				D50DCA5521F396050098CF2C /* GerenciadorDeAcoes.swift */,
 				D50DCA5721F3A3760098CF2C /* CellContact.swift */,
+				D57D5F5421FCA211002178BA /* ContatosNoMapaViewController.swift */,
+				D57D5F5621FCC33F002178BA /* VilaMariana.gpx */,
 			);
 			path = ContatosIP67;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 				D50857D521E10ADC0088FDFF /* ContatosIP67.xcdatamodeld in Sources */,
 				D50857CD21E10ADC0088FDFF /* AppDelegate.swift in Sources */,
 				D50857E821E12FD70088FDFF /* ListaContatosViewControllerTableViewController.swift in Sources */,
+				D57D5F5521FCA211002178BA /* ContatosNoMapaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
