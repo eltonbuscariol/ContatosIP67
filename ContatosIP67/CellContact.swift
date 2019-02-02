@@ -12,6 +12,7 @@ class CellContact: UITableViewCell {
 
     @IBOutlet weak var lblNome: UILabel!
     @IBOutlet weak var lblProfile: UILabel!
+    @IBOutlet weak var lblPhone: UILabel!    
     @IBOutlet weak var imageProfile: UIImageView!
     
     override func awakeFromNib() {
@@ -28,6 +29,7 @@ class CellContact: UITableViewCell {
     
     func bind(contato:Contato) {
         self.lblNome.text = contato.nome
+        self.lblPhone.text = contato.telefone
         
         let index = contato.nome.index(contato.nome.startIndex, offsetBy: 1)
         if let foto = contato.foto{

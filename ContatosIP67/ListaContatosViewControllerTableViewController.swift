@@ -25,6 +25,7 @@ class ListaContatosViewControllerTableViewController: UITableViewController, For
 
         let longPress = UILongPressGestureRecognizer(target: self, action: #selector(exibirMaisAcoes(gesture:)))
         self.tableView.addGestureRecognizer(longPress)
+        self.tableView.tableFooterView = UIView()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -68,11 +69,13 @@ class ListaContatosViewControllerTableViewController: UITableViewController, For
     
     func contatoAtualizado(_ contato: Contato) {
         linhaDestaque = IndexPath(row: self.dao.buscaPosicaoDoContato(contato), section: 0)
+        dao.saveContext()
         print("contato atualizado: \(contato.nome)")
     }
     
     func contatoAdicionado(_ contato: Contato) {
         linhaDestaque = IndexPath(row: self.dao.buscaPosicaoDoContato(contato), section: 0)
+        dao.saveContext()
         print("contato adicionado: \(contato.nome)")
     }
     

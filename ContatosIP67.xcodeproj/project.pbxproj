@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BBECD889694A895016D7CD0 /* Pods_ContatosIP67.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB6E82EB61576358C587613 /* Pods_ContatosIP67.framework */; };
 		D50857CD21E10ADC0088FDFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50857CC21E10ADC0088FDFF /* AppDelegate.swift */; };
 		D50857CF21E10ADC0088FDFF /* FormularioContatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50857CE21E10ADC0088FDFF /* FormularioContatoViewController.swift */; };
 		D50857D221E10ADC0088FDFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50857D021E10ADC0088FDFF /* Main.storyboard */; };
@@ -20,9 +21,14 @@
 		D50DCA5821F3A3760098CF2C /* CellContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50DCA5721F3A3760098CF2C /* CellContact.swift */; };
 		D53A7E8921F38BFD00C6C7FE /* FormularioContatoViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A7E8821F38BFD00C6C7FE /* FormularioContatoViewControllerDelegate.swift */; };
 		D57D5F5521FCA211002178BA /* ContatosNoMapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57D5F5421FCA211002178BA /* ContatosNoMapaViewController.swift */; };
+		D591DE382205D9E4008225E0 /* CoreDataUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D591DE372205D9E4008225E0 /* CoreDataUtil.swift */; };
+		D591DE3A220618D9008225E0 /* TemperaturaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D591DE39220618D9008225E0 /* TemperaturaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B1FE3DA9F6858278021FB78 /* Pods-ContatosIP67.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContatosIP67.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContatosIP67/Pods-ContatosIP67.debug.xcconfig"; sourceTree = "<group>"; };
+		77AF9C5E3498F7B302FC9D2B /* Pods-ContatosIP67.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContatosIP67.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContatosIP67/Pods-ContatosIP67.release.xcconfig"; sourceTree = "<group>"; };
+		BDB6E82EB61576358C587613 /* Pods_ContatosIP67.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContatosIP67.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50857C921E10ADC0088FDFF /* ContatosIP67.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContatosIP67.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50857CC21E10ADC0088FDFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D50857CE21E10ADC0088FDFF /* FormularioContatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioContatoViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +47,8 @@
 		D53A7E8821F38BFD00C6C7FE /* FormularioContatoViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormularioContatoViewControllerDelegate.swift; sourceTree = "<group>"; };
 		D57D5F5421FCA211002178BA /* ContatosNoMapaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContatosNoMapaViewController.swift; sourceTree = "<group>"; };
 		D57D5F5621FCC33F002178BA /* VilaMariana.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VilaMariana.gpx; sourceTree = "<group>"; };
+		D591DE372205D9E4008225E0 /* CoreDataUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataUtil.swift; sourceTree = "<group>"; };
+		D591DE39220618D9008225E0 /* TemperaturaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TemperaturaViewController.swift; path = ../TemperaturaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,17 +56,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BBECD889694A895016D7CD0 /* Pods_ContatosIP67.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C77DA7C1B9338B3762C2AD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6E82EB61576358C587613 /* Pods_ContatosIP67.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E3FF11A5A766D5B90C0F643 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B1FE3DA9F6858278021FB78 /* Pods-ContatosIP67.debug.xcconfig */,
+				77AF9C5E3498F7B302FC9D2B /* Pods-ContatosIP67.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D50857C021E10ADB0088FDFF = {
 			isa = PBXGroup;
 			children = (
 				D50857CB21E10ADC0088FDFF /* ContatosIP67 */,
 				D50857CA21E10ADC0088FDFF /* Products */,
+				9E3FF11A5A766D5B90C0F643 /* Pods */,
+				5C77DA7C1B9338B3762C2AD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,25 +101,51 @@
 		D50857CB21E10ADC0088FDFF /* ContatosIP67 */ = {
 			isa = PBXGroup;
 			children = (
+				D591DE3D22061CDB008225E0 /* Util */,
+				D591DE3C22061CA3008225E0 /* Dao */,
+				D591DE3B22061C7F008225E0 /* Controllers */,
 				D50857CC21E10ADC0088FDFF /* AppDelegate.swift */,
-				D50857CE21E10ADC0088FDFF /* FormularioContatoViewController.swift */,
 				D50857D021E10ADC0088FDFF /* Main.storyboard */,
 				D50857D621E10ADC0088FDFF /* Assets.xcassets */,
 				D50857D821E10ADC0088FDFF /* LaunchScreen.storyboard */,
 				D50857DB21E10ADC0088FDFF /* Info.plist */,
+				D57D5F5621FCC33F002178BA /* VilaMariana.gpx */,
+			);
+			path = ContatosIP67;
+			sourceTree = "<group>";
+		};
+		D591DE3B22061C7F008225E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D50857CE21E10ADC0088FDFF /* FormularioContatoViewController.swift */,
+				D50857E721E12FD70088FDFF /* ListaContatosViewControllerTableViewController.swift */,
+				D57D5F5421FCA211002178BA /* ContatosNoMapaViewController.swift */,
+				D53A7E8821F38BFD00C6C7FE /* FormularioContatoViewControllerDelegate.swift */,
+				D591DE39220618D9008225E0 /* TemperaturaViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D591DE3C22061CA3008225E0 /* Dao */ = {
+			isa = PBXGroup;
+			children = (
 				D50857D321E10ADC0088FDFF /* ContatosIP67.xcdatamodeld */,
 				D50857E221E117900088FDFF /* Contato.h */,
 				D50857E321E117900088FDFF /* Contato.m */,
 				D50857E121E1178F0088FDFF /* ContatosIP67-Bridging-Header.h */,
 				D50857E521E11DB50088FDFF /* ContatoDao.swift */,
-				D50857E721E12FD70088FDFF /* ListaContatosViewControllerTableViewController.swift */,
-				D53A7E8821F38BFD00C6C7FE /* FormularioContatoViewControllerDelegate.swift */,
-				D50DCA5521F396050098CF2C /* GerenciadorDeAcoes.swift */,
-				D50DCA5721F3A3760098CF2C /* CellContact.swift */,
-				D57D5F5421FCA211002178BA /* ContatosNoMapaViewController.swift */,
-				D57D5F5621FCC33F002178BA /* VilaMariana.gpx */,
+				D591DE372205D9E4008225E0 /* CoreDataUtil.swift */,
 			);
-			path = ContatosIP67;
+			name = Dao;
+			sourceTree = "<group>";
+		};
+		D591DE3D22061CDB008225E0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D50DCA5721F3A3760098CF2C /* CellContact.swift */,
+				D50DCA5521F396050098CF2C /* GerenciadorDeAcoes.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D50857DE21E10ADC0088FDFF /* Build configuration list for PBXNativeTarget "ContatosIP67" */;
 			buildPhases = (
+				C5F8E15D44AA9FD0737817A4 /* [CP] Check Pods Manifest.lock */,
 				D50857C521E10ADB0088FDFF /* Sources */,
 				D50857C621E10ADB0088FDFF /* Frameworks */,
 				D50857C721E10ADB0088FDFF /* Resources */,
+				3A8D020A5FD94C3C2FDD9A7D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +182,7 @@
 				TargetAttributes = {
 					D50857C821E10ADB0088FDFF = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = QZ56CVC269;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -162,6 +219,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A8D020A5FD94C3C2FDD9A7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ContatosIP67/Pods-ContatosIP67-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContatosIP67/Pods-ContatosIP67-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F8E15D44AA9FD0737817A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContatosIP67-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D50857C521E10ADB0088FDFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -175,8 +271,10 @@
 				D50857E621E11DB50088FDFF /* ContatoDao.swift in Sources */,
 				D50857D521E10ADC0088FDFF /* ContatosIP67.xcdatamodeld in Sources */,
 				D50857CD21E10ADC0088FDFF /* AppDelegate.swift in Sources */,
+				D591DE382205D9E4008225E0 /* CoreDataUtil.swift in Sources */,
 				D50857E821E12FD70088FDFF /* ListaContatosViewControllerTableViewController.swift in Sources */,
 				D57D5F5521FCA211002178BA /* ContatosNoMapaViewController.swift in Sources */,
+				D591DE3A220618D9008225E0 /* TemperaturaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,12 +393,15 @@
 		};
 		D50857DF21E10ADC0088FDFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1FE3DA9F6858278021FB78 /* Pods-ContatosIP67.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = QZ56CVC269;
 				INFOPLIST_FILE = ContatosIP67/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.caelum.ContatosIP67;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.elton.ContatosIP67;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ContatosIP67/ContatosIP67-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -310,12 +411,15 @@
 		};
 		D50857E021E10ADC0088FDFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77AF9C5E3498F7B302FC9D2B /* Pods-ContatosIP67.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = QZ56CVC269;
 				INFOPLIST_FILE = ContatosIP67/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.caelum.ContatosIP67;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.elton.ContatosIP67;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ContatosIP67/ContatosIP67-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;

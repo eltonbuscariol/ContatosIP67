@@ -95,7 +95,7 @@ class FormularioContatoViewController: UIViewController, UINavigationControllerD
     
     func pegarDadosDoFormulario() {
         if contato == nil{
-            contato = Contato()
+            contato = self.dao.novoContato()
         }
         
         contato.nome = nome.text

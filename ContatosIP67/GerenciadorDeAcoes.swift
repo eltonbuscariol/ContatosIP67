@@ -21,7 +21,8 @@ class GerenciadorDeAcoes {
         
         let alertView = UIAlertController(title: self.contato.nome, message: nil, preferredStyle: .actionSheet)
         
-        let cancelar = UIAlertAction(title: "Cancelar", style: .default, handler: nil)
+        let cancelar = UIAlertAction(title: "Cancelar", style: .cancel, handler: nil)
+        
         let ligarParaContato = UIAlertAction(title: "Ligar", style: .default, handler: { action in
             self.ligar()
         })
@@ -34,7 +35,12 @@ class GerenciadorDeAcoes {
             self.abrirNavegador()
         })
         
+        let exibirTemperatura = UIAlertAction(title: "Visualizar Clima", style: .default, handler: { action in
+            self.exibirTemperatura()
+        })
+        
         alertView.addAction(cancelar)
+        alertView.addAction(exibirTemperatura)
         alertView.addAction(ligarParaContato)
         alertView.addAction(exibirContatoNoMapa)
         alertView.addAction(exibirSiteDoContato)
@@ -45,7 +51,7 @@ class GerenciadorDeAcoes {
     private func ligar(){
         let device = UIDevice.current
         
-        if device.model == "iPad" {
+        if device.model == "iPhone" {
             print("UUID \(device.identifierForVendor!)")
             AbrirAplicativo(com: "tel:\(self.contato.telefone!)")
         } else{
@@ -70,8 +76,23 @@ class GerenciadorDeAcoes {
     }
     
     private func AbrirAplicativo(com url:String){
-        UIApplication
-            .shared
-            .open(URL(string: url)!, options: [:], completionHandler: nil)
+        
+        let uri = URL(string: url)
+        
+        if #available(iOS 10.0, *) {
+            UIApplication
+                .shared
+                .open(URL(string: url)!, options: [:], completionHandler: nil)
+        } else {
+            UIApplication.shared.openURL(uri!)
+        }
+        
+    }
+    
+    func exibirTemperatura() {
+        let temperaturaViewController = controller.storyboard?.instantiateViewController(withIdentifier: "Form-Temperatura") as! TemperaturaViewController
+        
+        controller.navigationController?.pushViewController(temperaturaViewController, animated: true)
+        
     }
 }
