@@ -92,6 +92,8 @@ class GerenciadorDeAcoes {
     func exibirTemperatura() {
         let temperaturaViewController = controller.storyboard?.instantiateViewController(withIdentifier: "Form-Temperatura") as! TemperaturaViewController
         
+        temperaturaViewController.contato = self.contato
+        
         controller.navigationController?.pushViewController(temperaturaViewController, animated: true)
         
     }
