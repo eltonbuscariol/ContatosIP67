@@ -40,9 +40,6 @@ class FormularioContatoViewController: UIViewController, UINavigationControllerD
         }
         let tap = UITapGestureRecognizer(target: self, action: #selector(selecionarFoto(sender:)))
         self.imageView.addGestureRecognizer(tap)
-        imageView.layer.masksToBounds = true
-        imageView.layer.cornerRadius = imageView.frame.height / 2
-        imageView.layer.borderWidth = 3
         imageView.layer.borderColor = UIColor.lightGray.cgColor
         // Do any additional setup after loading the view, typically from a nib.
     }
